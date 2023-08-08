@@ -1,0 +1,45 @@
+.mainSection {
+    min-height: 800px;
+    background-color: #87989d;
+}
+
+.mainPart {
+    width: 100%;
+    color: white;
+    background-color: #87989d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+
+input, select {
+    margin: 10px 0;
+    padding: 10px;
+    border: unset;
+    border-bottom: 2 px solid #e3e3e3;
+    outline: none;
+}
+
+option {
+    font-size: 16px;
+}
+
+button {
+    padding: 10px;
+    background: #e3e3e3;
+    border: unset;
+    cursor: pointer;
+}
+
+.updateMainLabel {
+    text-align: center;
+    font-size: 24px;
+    padding-bottom: 20px;
+}

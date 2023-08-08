@@ -1,0 +1,170 @@
+.statusButtons {
+    width: 120px;
+}
+
+.thead {
+    min-width: 1030px;
+}
+
+.rightStatusButtons {
+    width: 110px;
+    height: 35px;
+    font-style: 16px;
+    margin-left: 10px;
+}
+
+.buttonCreate {
+    appearance: button;
+    backface-visibility: hidden;
+    background-color: #405cf5;
+    border-radius: 6px;
+    border-width: 0;
+    box-shadow: rgba(50, 50, 93, .1) 0 0 0 1px inset,rgba(50, 50, 93, .1) 0 2px 5px 0,rgba(0, 0, 0, .07) 0 1px 1px 0;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    font-family: -apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Ubuntu,sans-serif;
+    font-size: 100%;
+    height: 54px;
+    line-height: 1.15;
+    margin: 12px 50px 0;
+    outline: none;
+    overflow: hidden;
+    padding: 0 25px;
+    position: relative;
+    text-align: center;
+    text-transform: none;
+    transform: translateZ(0);
+    transition: all .2s,box-shadow .08s ease-in;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: 300px;
+}
+
+.buttonCreate:disabled {
+    cursor: default;
+}
+
+.buttonCreate:focus {
+    box-shadow: rgba(50, 50, 93, .1) 0 0 0 1px inset, rgba(50, 50, 93, .2) 0 6px 15px 0, rgba(0, 0, 0, .1) 0 2px 2px 0, rgba(50, 151, 211, .3) 0 0 0 4px;
+}
+
+a {
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.ordersSection {
+    background-color: #87989d;
+    min-height: 700px;
+}
+
+.contentTable {
+    border-collapse: collapse;
+    font-size: 0.9em;
+    max-width: 1100px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+}
+
+tr, td {
+    height: 30px;
+}
+
+.contentTable thead tr {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+    font-weight: bold;
+}
+
+.contentTable th,
+.contentTable td {
+    padding: 12px 15px;
+}
+
+.contentTable tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.contentTable tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.contentTable tbody tr.active-row {
+    font-weight: bold;
+    color: #009879;
+}
+
+.deleteOrderButton, .deleteProductButton {
+    width: 100px;
+    height: 30px;
+    background-color: rgb(213, 62, 62);
+    color: white;
+    border-radius: 8px;
+    border: unset;
+    cursor: pointer;
+}
+
+.deleteOrderButton:hover, .deleteProductButton:hover {
+    cursor: pointer;
+    border: 2px solid white;
+}
+
+.updateOrderButton, .updateProductButton {
+    border: unset;
+    width: 100px;
+    height: 30px;
+    color: white;
+    background-color: #FF9119;
+    border-radius: 8px;
+}
+
+.updateOrderButton:hover, .updateProductButton:hover {
+    cursor: pointer;
+    border: 2px solid rgb(255, 255, 255);
+}
+
+.listOfOrders {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+    min-height: 400px;
+}
+
+.allOrders {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    background-color: #dddddd;
+    min-width: 832px;
+    border-radius: 4px;
+    box-shadow: 0 40px 40px rgba(0, 0, 0, 0.15);
+    border-bottom: 4px solid #009879;
+}
+
+.leftChoise {
+    display: flex;
+    flex-direction: column;
+}
+
+.getProducts, .getOrders {
+    width: 120px;
+    height: 40px;
+}
+
+.none {
+    display: none;
+}
+
+.productImage {
+    width: 150px;
+    height: 150px;
+    padding: 0;
+    margin: 0;
+}
+
+.tableModel {
+    height: 30px;
+}

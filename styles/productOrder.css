@@ -1,0 +1,57 @@
+.main_section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.orderForm {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+
+.orderButtons {
+    display: flex;
+    gap: 16px;
+    width: 100%;
+}
+
+input,textarea {
+    margin: 10px 0px;
+    padding: 10px;
+    border: unset;
+    border-bottom: 2px solid #e3e3e3;
+    outline: none;
+    max-width: 400px;
+    max-height: 80px;
+}
+
+button {
+    padding: 10px;
+    background: #e3e3e3;
+    border: unset;
+    cursor: pointer;
+    width: 48%;
+}
+
+.error {
+    border-bottom: 2px solid #ec0b0b;
+}
+
+.msg {
+    color: #ec1602d1;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.none {
+    display: none;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}

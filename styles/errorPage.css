@@ -1,0 +1,41 @@
+.main_section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('../images/p404.png'), #151729;
+    box-shadow: 0 15px 30px rgba(0,0,0,.5);
+}
+
+.errorContent h1 {
+    font-size: 18vw;
+    color: white;
+    line-height: 1em;
+}
+
+.errorContent h4 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    padding-top: 5px;
+    height: 40px;
+    color: #111;
+    background-color: #fff;
+    text-align: center;
+    font-weight: 300;
+}
+
+.errorContent p {
+    color: white;
+    font-size: 1.2em;
+}
+
+.errorContent a {
+    position: relative;
+    display: inline-block;
+    margin-left: 195px;
+    padding: 10px 25px;
+    background: #ff0562;
+    border-radius: 25px;
+    text-decoration: none;
+    margin-top: 25px;
+    border-bottom: 4px solid #d00d56;
+}

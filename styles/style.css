@@ -1,0 +1,189 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    display: flex;
+    background-color: #24252A;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10px;
+}
+
+li, a, .project_name {
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+    color: #edf0f1;
+}
+
+.nav_links {
+    list-style: none;
+}
+
+.nav_links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav_links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover {
+    color: #0088a9;
+}
+
+.project_name {
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 22px;
+    padding-left: 40px;
+}
+
+.main_section {
+    background-color: #87989d;
+    min-height: 600px;
+}
+
+.footer_text {
+    background-color: #24252A;
+    color: #edf0f1;
+    min-height: 56px;
+    padding-top: 16px;
+    font-size: 18px;
+    font-weight: 200;
+    text-align: center;
+}
+
+.productImage{
+    width: 249px;
+    height: 249px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.all_products {
+    display: flex;
+}
+
+.products_container {
+    padding: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    width: 100%;
+    height: 100%;
+}
+
+.product {
+    width: 252px;
+    height: 550px;
+    border-radius: 12px;
+    border: 1px solid white;
+    background-color: white;
+}
+
+.productName {
+    color: rgb(96, 93, 93);
+    text-align: center;
+    font-weight: 700;
+    font-size: 17px;
+    max-height: 40px;
+    margin: 12px;
+    height: 40px;
+    word-wrap: break-word;
+}
+
+.productDescription {
+    padding-top: 12px;
+    margin: 6px;
+    min-height: 110px;
+    max-height: 110px;
+    text-align: left;
+    font-size: 14px;
+    word-wrap: break-word;
+}
+
+.productPrice {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.buttonsProduct {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    width: 100%;
+    gap: 20px;
+}
+
+.productDetailsButton {
+    border: 1px solid white;
+    height: 32px;
+    width: 100px;
+    cursor: pointer;
+}
+
+.productOrderButton {
+    border: 1px solid white;
+    height: 32px;
+    width: 100px;
+    cursor: pointer;
+}
+
+.page_list {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+
+.pageButton{ 
+    width: 40px;
+}
+
+.goBackContainer {
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    background-color: #87989d;
+}
+
+.detailed_section {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.thanks {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.thanksContainer {
+    text-align: center;
+    background-color: rgb(54, 52, 52);
+    box-shadow: 5px 10px #888888;
+    border-radius: 12px;
+    width: 600px;
+    color: #edf0f1;
+}
+
+.thanksContainer h2 {
+    margin: 20px;
+    color: rgb(154, 222, 87);
+}
+
+.thanksContainer p {
+    width: 400px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
